@@ -735,4 +735,8 @@ impl Story {
     pub fn get_current_path(&self) -> Option<String> {
         self.get_state().current_path_string()
     }
+
+    pub fn get_previous_path(&self) -> Option<String> {
+        self.get_state().previous_path_string()
+    }
 }
